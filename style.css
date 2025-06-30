@@ -1,0 +1,78 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 40px;
+  padding: 0;
+}
+
+/* Título */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Lista de tarefas */
+ul { 
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botão de remover */
+.remover {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.remover:hover {
+  background-color: #c0392b;
+}
